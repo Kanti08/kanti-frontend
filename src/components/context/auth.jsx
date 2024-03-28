@@ -241,7 +241,7 @@ const AuthProvider = ({ children }) => {
         }
         //eslint-disable-next-line
     }, []);
-    console.log("auth",auth)
+   
     return (
         <AuthContext.Provider value={[auth, setAuth]}>
             {children}
